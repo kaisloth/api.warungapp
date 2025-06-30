@@ -1,0 +1,169 @@
+CRITICAL - 2025-06-23 16:38:13 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: CLI, Route: make:Controller/ProductController]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\Boot.php(360): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:39:18 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: CLI, Route: make:Controller/ProductController]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\Boot.php(360): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:39:24 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: CLI, Route: make:controller/ProductController]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\Boot.php(360): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:41:45 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: CLI, Route: make:model/ProductModel]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\Boot.php(360): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:41:48 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: CLI, Route: make:model/ProductModel]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\Boot.php(360): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:54:51 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:54:55 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:55:02 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:55:33 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:57:08 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:58:13 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:58:15 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-23 16:58:28 --> TypeError: CodeIgniter\Router\RouteCollection::processArrayCallableSyntax(): Return value must be of type string, array returned
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\RouteCollection.php on line 1606.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1457): CodeIgniter\Router\RouteCollection->processArrayCallableSyntax('getproducts', [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(1052): CodeIgniter\Router\RouteCollection->create('GET', 'getproducts', [...], null)
+ 3 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get('/getproducts', [...])
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\laragon\\www\\warungappb\\app\\api\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-23 18:03:18 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: getproducts]
+in APPPATH\Controllers\ProductController.php on line 17.
+ 1 APPPATH\Controllers\ProductController.php(17): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->getProducts()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

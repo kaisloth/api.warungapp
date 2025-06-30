@@ -64,7 +64,7 @@ class UserController extends BaseController
 
             setcookie(
                 'islogin',
-                'true',
+                true,
                 [
                     'expires' => time() + (86400 * 30),
                     'path' => '/',
@@ -121,7 +121,7 @@ class UserController extends BaseController
                 
                 setcookie(
                 'islogin',
-                'true',
+                true,
                 [
                     'expires' => time() + (86400 * 30),
                     'path' => '/',

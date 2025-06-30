@@ -1,0 +1,52 @@
+Untuk proyek CodeIgniter, file-file yang umumnya ditambahkan ke .gitignore adalah sebagai berikut, disesuaikan dengan versi CodeIgniter (CI3 atau CI4):
+
+Untuk CodeIgniter 4 (Sangat Direkomendasikan):
+
+CodeIgniter 4 memiliki struktur direktori yang lebih modern, mirip dengan framework PHP lainnya, dan file .gitignore bawaannya sudah sangat baik.
+
+# CodeIgniter 4 ignores:
+
+# Vendor directory
+/vendor/
+
+# Environment variables
+.env
+.env.development
+.env.testing
+.env.production
+.env.local
+
+# Storage directory (for logs, cache, sessions, etc.)
+# /writable/cache/*
+# !/writable/cache/.gitkeep
+# /writable/logs/*
+# !/writable/logs/.gitkeep
+# /writable/session/*
+# !/writable/session/.gitkeep
+# /writable/debugbar/*
+# !/writable/debugbar/.gitkeep
+
+# Built-in Web Server logs
+spark.log
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# npm / yarn / composer cache (if you use them within the project root for frontend assets)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Test reports
+/build/
+/coverage/
+
+# Public uploads (if not handled by CI's writable folder)
+/public/uploads/
