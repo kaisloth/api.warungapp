@@ -1,0 +1,58 @@
+# CodeIgniter 4 specific ignores
+/writable/cache/*
+!/writable/cache/index.html
+/writable/logs/*
+!/writable/logs/index.html
+/writable/session/*
+!/writable/session/index.html
+/writable/uploads/*
+!/writable/uploads/index.html
+/writable/debugbar/*
+!/writable/debugbar/index.html
+/writable/temp/*
+!/writable/temp/index.html
+
+# Composer
+/vendor/
+/composer.lock
+
+# Environments
+.env
+.env.development
+.env.testing
+.env.production
+.env.*.local
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+/public/build/
+/public/assets/compiled/
+
+# Node.js
+/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Testing
+/build/
+/phpunit.xml
+/coverage/
+
+# Misc
+*.log
+*.sql
+/phpcs.xml
+/phpstan.neon
